@@ -1,0 +1,1 @@
+local a=loadstring(game:HttpGet"https://pastebin.com/raw/za26qWBJ")()local b=a:Window("discord library")local c=b:Server("Preview","")local d=c:Channel("Buttons")d:Toggle("Name Hider",false,function(e)if e then loadstring(game:HttpGet('https://raw.githubusercontent.com/Pixelated03/Name-Hidder/main/Initializer'))()else NameHidder()end end)
